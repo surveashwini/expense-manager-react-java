@@ -1,0 +1,13 @@
+.report-container {
+  width: 100%;
+
+  .clickable-data {
+    cursor: pointer;
+    font-size: larger;
+  }
+
+  .disabled {
+    cursor: not-allowed;
+    font-size: larger;
+  }
+}
