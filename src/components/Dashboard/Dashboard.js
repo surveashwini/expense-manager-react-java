@@ -7,19 +7,19 @@ const Dashboard = () => {
   const history = useHistory();
 
   const addExpense = () => {
-    history.push("/add");
+    history.push("/expense-manager-react-java/add");
   };
 
   const showReport = () => {
-    history.push("/report");
+    history.push("/expense-manager-react-java/report");
   };
 
   const addRecurring = () => {
-    history.push("/recurring");
+    history.push("/expense-manager-react-java/recurring");
   };
 
   const showAnalysis = () => {
-    history.push("/analysis");
+    history.push("/expense-manager-react-java/analysis");
   };
 
   return (

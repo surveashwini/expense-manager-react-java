@@ -4,7 +4,7 @@ const Nav = () => {
   const history = useHistory();
   const logout = () => {
     sessionStorage.clear();
-    history.push("/");
+    history.push("/expense-manager-react-java/");
   };
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-dark w-100">

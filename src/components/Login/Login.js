@@ -26,7 +26,7 @@ const Login = () => {
     });
     axios(requestOptions).then((response) => {
       setShowLoader(false);
-      history.push("/dashboard");
+      history.push("/expense-manager-react-java/dashboard");
     });
   };
 

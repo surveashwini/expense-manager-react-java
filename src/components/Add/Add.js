@@ -80,7 +80,7 @@ const Add = () => {
   };
 
   const redirectToReport = () => {
-    history.push("/report");
+    history.push("/expense-manager-react-java/report");
   };
 
   return (

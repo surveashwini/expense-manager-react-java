@@ -13,12 +13,21 @@ function App() {
   return (
     <>
       <BrowserRouter>
-        <Route path="/dashboard" component={Dashboard} />
-        <Route path="/add" component={Add} />
-        <Route path="/recurring" component={Recurring} />
-        <Route path="/analysis" component={Analysis} />
-        <Route path="/report" component={Report} />
-        <Route path="/" exact component={Login} />
+        <Route
+          path="/expense-manager-react-java/dashboard"
+          component={Dashboard}
+        />
+        <Route path="/expense-manager-react-java/add" component={Add} />
+        <Route
+          path="/expense-manager-react-java/recurring"
+          component={Recurring}
+        />
+        <Route
+          path="/expense-manager-react-java/analysis"
+          component={Analysis}
+        />
+        <Route path="/expense-manager-react-java/report" component={Report} />
+        <Route path="/expense-manager-react-java/" exact component={Login} />
       </BrowserRouter>
     </>
   );
