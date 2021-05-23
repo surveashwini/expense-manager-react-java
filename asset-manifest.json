@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/expense-manager-react-java/static/css/main.68f3150d.chunk.css",
-    "main.js": "/expense-manager-react-java/static/js/main.effb5668.chunk.js",
-    "main.js.map": "/expense-manager-react-java/static/js/main.effb5668.chunk.js.map",
+    "main.js": "/expense-manager-react-java/static/js/main.e9b58988.chunk.js",
+    "main.js.map": "/expense-manager-react-java/static/js/main.e9b58988.chunk.js.map",
     "runtime-main.js": "/expense-manager-react-java/static/js/runtime-main.065171fc.js",
     "runtime-main.js.map": "/expense-manager-react-java/static/js/runtime-main.065171fc.js.map",
     "static/css/2.1c71822b.chunk.css": "/expense-manager-react-java/static/css/2.1c71822b.chunk.css",
@@ -26,6 +26,6 @@
     "static/css/2.1c71822b.chunk.css",
     "static/js/2.56b02c76.chunk.js",
     "static/css/main.68f3150d.chunk.css",
-    "static/js/main.effb5668.chunk.js"
+    "static/js/main.e9b58988.chunk.js"
   ]
 }
