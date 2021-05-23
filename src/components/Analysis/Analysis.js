@@ -6,6 +6,7 @@ import axios from "axios";
 import * as d3 from "d3";
 import { EXPENSES_URL } from "../../constants/serverDetails";
 import { getRequestOptions } from "../../util/generateRequestOptions";
+import { DASHBOARD } from "../../routes/routes";
 
 const Analysis = () => {
   const [expenseList, setExpenseList] = useState([]);
@@ -387,7 +388,7 @@ const Analysis = () => {
         <nav aria-label="breadcrumb">
           <ol className="breadcrumb">
             <li className="breadcrumb-item text-light">
-              <Link to="/dashboard">Dashboard</Link>
+              <Link to={DASHBOARD}>Dashboard</Link>
             </li>
             <li
               className="breadcrumb-item active text-light"

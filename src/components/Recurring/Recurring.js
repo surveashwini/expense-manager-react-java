@@ -13,6 +13,7 @@ import {
   ADD_EXPENSE_SUMMARY,
   ADD_EXPENSE_DETAILS,
 } from "../../constants/staticValues";
+import { DASHBOARD } from "../../routes/routes";
 
 const Recurring = () => {
   const durationOptions = ["Weekly", "Monthly", "Yearly"];
@@ -57,7 +58,7 @@ const Recurring = () => {
             <nav aria-label="row justify-content-center breadcrumb ">
               <ol className="column justify-content-start g-3 breadcrumb">
                 <li className="breadcrumb-item text-light">
-                  <Link to="/dashboard">Dashboard</Link>
+                  <Link to={DASHBOARD}>Dashboard</Link>
                 </li>
                 <li
                   className="breadcrumb-item active text-light"

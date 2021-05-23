@@ -18,6 +18,7 @@ import { useRef } from "react";
 import { Toast } from "primereact/toast";
 import "primereact/resources/themes/saga-green/theme.css";
 import "primereact/resources/primereact.min.css";
+import { DASHBOARD, REPORT } from "../../routes/routes";
 
 const Add = () => {
   let history = useHistory();
@@ -80,7 +81,7 @@ const Add = () => {
   };
 
   const redirectToReport = () => {
-    history.push("/expense-manager-react-java/report");
+    history.push(REPORT);
   };
 
   return (
@@ -92,7 +93,7 @@ const Add = () => {
               <nav aria-label="row justify-content-center breadcrumb ">
                 <ol className="column justify-content-start g-3 breadcrumb">
                   <li className="breadcrumb-item text-light">
-                    <Link to="/dashboard">Dashboard</Link>
+                    <Link to={DASHBOARD}>Dashboard</Link>
                   </li>
                   <li
                     className="breadcrumb-item active text-light"

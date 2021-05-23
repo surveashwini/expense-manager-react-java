@@ -1,10 +1,11 @@
 import { useHistory } from "react-router-dom";
+import { BASE_PATH } from "../../routes/routes";
 const Nav = () => {
   const userName = sessionStorage.getItem("user");
   const history = useHistory();
   const logout = () => {
     sessionStorage.clear();
-    history.push("/expense-manager-react-java/");
+    history.push(BASE_PATH);
   };
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-dark w-100">

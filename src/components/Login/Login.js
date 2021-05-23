@@ -8,6 +8,7 @@ import "./Login.scss";
 import { AUTHENTICATE_USER_URL } from "../../constants/serverDetails";
 import { postRequestOptions } from "../../util/generateRequestOptions";
 import axios from "axios";
+import { DASHBOARD } from "../../routes/routes";
 
 const Login = () => {
   let history = useHistory();
@@ -26,7 +27,7 @@ const Login = () => {
     });
     axios(requestOptions).then((response) => {
       setShowLoader(false);
-      history.push("/expense-manager-react-java/dashboard");
+      history.push(DASHBOARD);
     });
   };
 

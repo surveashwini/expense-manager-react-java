@@ -3,23 +3,24 @@ import { AiFillPlusCircle } from "react-icons/ai";
 import Nav from "../Nav/Nav";
 import dashboardBg from "../../assets/dashboard.png";
 import "./Dashboard.scss";
+import { ADD, ANALYSIS, RECURRING, REPORT } from "../../routes/routes";
 const Dashboard = () => {
   const history = useHistory();
 
   const addExpense = () => {
-    history.push("/expense-manager-react-java/add");
+    history.push(ADD);
   };
 
   const showReport = () => {
-    history.push("/expense-manager-react-java/report");
+    history.push(REPORT);
   };
 
   const addRecurring = () => {
-    history.push("/expense-manager-react-java/recurring");
+    history.push(RECURRING);
   };
 
   const showAnalysis = () => {
-    history.push("/expense-manager-react-java/analysis");
+    history.push(ANALYSIS);
   };
 
   return (
